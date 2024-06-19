@@ -7,3 +7,11 @@
         name: "*"
         state: latest
 
+    - name: Remove useless packages
+      ansible.builtin.apt:
+        autoclean: yes
+
+    - name: Remove Dependencies no longer needed
+      ansible.builtin.apt:
+        autoremove: yes    
+
