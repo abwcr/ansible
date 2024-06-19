@@ -4,5 +4,5 @@
   tasks:
     - name: Remove Chrome
       ansible.builtin.apt:
-        name: chrome
+        name: google-chrome-stable
         state: absent
