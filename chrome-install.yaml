@@ -4,4 +4,4 @@
   tasks:
     - name: Chrome Install
       ansible.builtin.apt:
-        name: Chrome
+        name: google-chrome-stable
