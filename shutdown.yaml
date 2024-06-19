@@ -1,0 +1,6 @@
+---
+- hosts: test
+  become: yes
+  tasks:
+    - name: Shutdown
+      community.general.shutdown
