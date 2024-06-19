@@ -2,6 +2,7 @@
 - hosts: ws
   become: true
   tasks:
+  
     - name: Install apt-transport-https
       ansible.builtin.apt:
       state: latest
