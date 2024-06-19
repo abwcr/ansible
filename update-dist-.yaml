@@ -1,5 +1,5 @@
 ---
-- hosts: test
+- hosts: ws
   become: yes
   tasks:
     - name: Upgrade the OS (apt-get dist-upgrade)
